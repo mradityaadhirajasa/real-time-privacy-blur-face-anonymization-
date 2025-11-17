@@ -7,13 +7,10 @@
 A high-performance computer vision tool that automatically detects and blurs faces in real-time video streams or CCTV footage. Designed to ensure compliance with privacy regulations (GDPR/PDP) by anonymizing individuals instantaneously.
 
 ## 🎥 Live Demo
-| Original | Cencored |
-|:---:|:---:|
-|![uncencored-gif](https://github.com/user-attachments/assets/075a8def-9872-460d-abf2-bda4651d00eb)|![cencored-gif](https://github.com/user-attachments/assets/bec7d945-d9e9-4cee-899c-2ae01a4dfd31)|
-
+![cencored-gif](https://github.com/user-attachments/assets/03022997-7ab4-4166-ad75-cec59ad51563)
 
 ## 🌟 Key Features
-* **High Accuracy:** Uses **YOLOv8-Face** model (better than Haar Cascades) to detect faces in various angles and lighting conditions.
+* **High Accuracy:** Uses **YOLOv8-Face** model to detect faces in various angles and lighting conditions.
 * **Dynamic Blurring:** The blur intensity automatically adjusts based on the distance of the face from the camera.
 * **Low Latency:** Optimized for real-time usage (Webcam/CCTV).
 
@@ -31,6 +28,7 @@ A high-performance computer vision tool that automatically detects and blurs fac
     ```
 
 3.  **Run the tool**
+   
     main.py to use video you want OR
     ```bash
     python main.py
